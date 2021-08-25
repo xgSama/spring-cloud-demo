@@ -13,6 +13,12 @@
         <module>cloud-consumer-order</module>
         <module>cloud-api-common</module>
         <module>cloud-eureka-server</module>
+        <module>cloud-consumer-feign-order</module>
+        <module>cloud-provider-hystrix-payment</module>
+        <module>cloud-consumer-feign-hystrix-order</module>
+        <module>cloud-gateway</module>
+        <module>cloud-alibaba-provider-nacos-payment</module>
+        <module>cloud-alibaba-consumer-nacos-order</module>
     </modules>
 
     <properties>
@@ -71,9 +77,8 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.12</version>
+                <version>1.18.20</version>
             </dependency>
-
 
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>

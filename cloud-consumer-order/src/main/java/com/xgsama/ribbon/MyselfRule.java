@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @author xgSama
  * @date 2021/4/11 21:02
  */
+@SuppressWarnings("SpringFacetCodeInspection")
 @Configuration
 public class MyselfRule {
 

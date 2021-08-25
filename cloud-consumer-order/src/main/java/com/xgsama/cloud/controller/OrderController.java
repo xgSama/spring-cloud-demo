@@ -19,7 +19,7 @@ import javax.annotation.Resource;
  * @author xgSama
  * @date 2021/4/10 23:05
  */
-@SuppressWarnings("unchecked")
+@SuppressWarnings({"unchecked", "rawtypes"})
 @Slf4j
 @RestController
 public class OrderController {

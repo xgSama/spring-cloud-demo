@@ -10,6 +10,11 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
+
 # Package Files #
 *.jar
 *.war

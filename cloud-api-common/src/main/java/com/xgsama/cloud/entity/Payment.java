@@ -1,6 +1,5 @@
 package com.xgsama.cloud.entity;
 
-import com.xgsama.cloud.enums.ServiceEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

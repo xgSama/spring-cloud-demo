@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 /**
- * OrderMain80
+ * OrderMain
  *
  * @author xgSama
  * @date 2021/4/10 23:03

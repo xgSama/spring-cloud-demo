@@ -7,15 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumer-feign-hystrix-order" />
         <module name="cloud-eureka-server" />
         <module name="cloud-api-common" />
-        <module name="cloud-provider-payment" />
+        <module name="cloud-alibaba-provider-nacos-payment" />
         <module name="cloud-consumer-order" />
+        <module name="cloud-provider-hystrix-payment" />
         <module name="cloud-eureka-server7002" />
+        <module name="cloud-alibaba-consumer-nacos-order" />
+        <module name="cloud-provider-payment" />
+        <module name="cloud-consumer-feign-order" />
+        <module name="cloud-gateway" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="cloud-eureka-server7002" target="8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
